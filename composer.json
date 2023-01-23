@@ -1,0 +1,21 @@
+{
+  "name": "webfuture/wfs-wpcli-random-posts",
+  "description": "A robust random post generator for WP CLI which supports multisite, post types, post counts, taxonomies, terms, term counts and featured images.",
+  "type": "wp-cli-package",
+  "keywords": ["wp-cli", "wordpress", "placeholder", "random posts"],
+  "homepage": "http://webfuture.ro",
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "Web Future",
+      "email": "code@webfuture.ro",
+      "homepage": "http://webfuture.ro"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "files": ["generate-posts.php"]
+  }
+}
